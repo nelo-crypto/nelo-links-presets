@@ -16,6 +16,10 @@ const PRESET: IPresetCategory[] = [
                 name: 'Kraken',
                 url: 'https://www.kraken.com/',
             },
+            {
+                name: 'Coinbase',
+                url: 'https://www.coinbase.com/',
+            }
         ]
     }
 ]
