@@ -14,7 +14,7 @@
   "module": "dist/index.js",
   "jsnext:main": "dist/index.js",
   "scripts": {
-    "build": "npx tsc --jsx react-jsx"
+    "build": "npx tsc"
   },
   "author": {
     "name": "NeloCrypto",
@@ -46,14 +46,9 @@
     "@babel/plugin-transform-runtime": "7.17.0",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "12.1.4",
-    "@types/jest": "27.4.1",
     "@typescript-eslint/eslint-plugin": "5.18.0",
     "@typescript-eslint/parser": "5.18.0",
-    "babel-jest": "27.5.1",
-    "eslint": "8.12.0",
-    "eslint-plugin-react": "7.29.4",
-    "jest": "27.5.1",
-    "ts-jest": "27.1.4"
+    "eslint": "8.12.0"
   },
   "files": [
     "build",
