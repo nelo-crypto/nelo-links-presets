@@ -58,7 +58,37 @@ const PRESET: IPresetCategory[] = [
                 name: 'MDEX',
                 url: 'https://bsc.mdex.com/',
                 description: 'DEX',
-            }
+            },
+        ]
+    },
+    {
+        name: 'Star Atlas',
+        presets: [
+            {
+                name: 'Star Atlas Twitter',
+                url: 'https://twitter.com/staratlas',
+                description: 'Twitter page',
+            },
+            {
+                name: 'Star Atlas Telegram',
+                url: 'https://t.me/staratlasgame',
+                description: 'Telegram chat',
+            },
+            {
+                name: 'Discord',
+                url: 'https://discord.com/invite/cg9aWnsuCA',
+                description: 'Discord chat',
+            },
+            {
+                name: 'ATLAS CG Page',
+                url: 'https://www.coingecko.com/en/coins/star-atlas',
+                description: 'ATLAS CG page',
+            },
+            {
+                name: 'POLIS CG Page',
+                url: 'https://www.coingecko.com/en/coins/star-atlas-dao',
+                description: 'Stable DEX',
+            },
         ]
     }
 ]
