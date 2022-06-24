@@ -2,6 +2,26 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const PRESET = [
     {
+        name: 'NeloCrypto Apps',
+        presets: [
+            {
+                name: 'NeloMaths',
+                url: 'https://maths.nelocrypto.com',
+                description: 'NeloMaths is a collection of crypto related calculators to help you keep on top of things.',
+            },
+            {
+                name: 'NeloOverview',
+                url: 'https://overview.nelocrypto.com',
+                description: 'NeloOverview is a crypto wealth manager to track your entire networth across every blockchain in real time.',
+            },
+            {
+                name: 'NeloVaults',
+                url: 'https://vaults.nelocrypto.com',
+                description: 'NeloVaults is a vault frontend manager for your private vaults and most called EVM contracts.',
+            },
+        ]
+    },
+    {
         name: 'Exchanges',
         presets: [
             {
@@ -90,6 +110,6 @@ const PRESET = [
                 description: 'Stable DEX',
             },
         ]
-    }
+    },
 ];
 exports.default = PRESET;
