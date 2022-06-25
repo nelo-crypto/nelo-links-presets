@@ -1,4 +1,5 @@
 import IPresetCategory from '../interfaces/IPresetCategory'
+import BLOCK_EXPLORER from './Blockchain/BlockExplorer'
 
 const PRESET: IPresetCategory[] = [
     {
@@ -111,6 +112,21 @@ const PRESET: IPresetCategory[] = [
             },
         ]
     },
+    {
+        name: 'Block Explorers',
+        presets: [
+            BLOCK_EXPLORER.HECO,
+            BLOCK_EXPLORER.AURORA,
+            BLOCK_EXPLORER.FTM,
+            BLOCK_EXPLORER.BSC,
+            BLOCK_EXPLORER.ETH,
+            BLOCK_EXPLORER.ONE,
+            BLOCK_EXPLORER.ARBITRUM,
+            BLOCK_EXPLORER.AVAX,
+            BLOCK_EXPLORER.METIS,
+            BLOCK_EXPLORER.CRONOS,
+        ]
+    }
 ]
 
 export default PRESET
