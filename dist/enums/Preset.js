@@ -1,5 +1,9 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
+const BlockExplorer_1 = __importDefault(require("./Blockchain/BlockExplorer"));
 const PRESET = [
     {
         name: 'NeloCrypto Apps',
@@ -111,5 +115,20 @@ const PRESET = [
             },
         ]
     },
+    {
+        name: 'Block Explorers',
+        presets: [
+            BlockExplorer_1.default.HECO,
+            BlockExplorer_1.default.AURORA,
+            BlockExplorer_1.default.FTM,
+            BlockExplorer_1.default.BSC,
+            BlockExplorer_1.default.ETH,
+            BlockExplorer_1.default.ONE,
+            BlockExplorer_1.default.ARBITRUM,
+            BlockExplorer_1.default.AVAX,
+            BlockExplorer_1.default.METIS,
+            BlockExplorer_1.default.CRONOS,
+        ]
+    }
 ];
 exports.default = PRESET;

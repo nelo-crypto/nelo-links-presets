@@ -1,8 +1,10 @@
 // Enums
 import EnumPreset from './enums/Preset'
+import EnumBlockExplorer from './enums/Blockchain/BlockExplorer'
 
 export {
     EnumPreset,
+    EnumBlockExplorer,
 }
 
 // Interfaces
