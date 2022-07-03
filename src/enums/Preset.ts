@@ -1,5 +1,6 @@
 import IPresetCategory from '../interfaces/IPresetCategory'
 import BLOCK_EXPLORER from './Blockchain/BlockExplorer'
+import TENSET from './Blockchain/Tenset'
 
 const PRESET: IPresetCategory[] = [
     {
@@ -126,7 +127,8 @@ const PRESET: IPresetCategory[] = [
             BLOCK_EXPLORER.METIS,
             BLOCK_EXPLORER.CRONOS,
         ]
-    }
+    },
+    TENSET
 ]
 
 export default PRESET
