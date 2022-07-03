@@ -4,6 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const BlockExplorer_1 = __importDefault(require("./Blockchain/BlockExplorer"));
+const Tenset_1 = __importDefault(require("./Blockchain/Tenset"));
 const PRESET = [
     {
         name: 'NeloCrypto Apps',
@@ -129,6 +130,7 @@ const PRESET = [
             BlockExplorer_1.default.METIS,
             BlockExplorer_1.default.CRONOS,
         ]
-    }
+    },
+    Tenset_1.default
 ];
 exports.default = PRESET;
